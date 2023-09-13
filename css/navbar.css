@@ -3,6 +3,7 @@ header{
     background-color: var(--color-orange);
     padding-bottom: 5px;
     box-shadow: 0 5px #8888881e;
+    z-index: 200;
 }
 
 .header-logo{

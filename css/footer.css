@@ -1,6 +1,10 @@
 footer{
-    height: var(--nav-height);
+    padding: 20px;
     color: var(--color-white);
     background-color: var(--color-black);
     
+}
+
+address{
+    font-style: normal;
 }

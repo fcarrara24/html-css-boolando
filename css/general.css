@@ -41,8 +41,13 @@
     position: fixed;
 }
 
-.debug{
+/* .debug{
     border: 1px solid black;
-    /* da togliere */
-    height: 100vh;
+    
+    
+} */
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
 }
