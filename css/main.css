@@ -10,21 +10,40 @@ main {
 }
 
 .box{
+    position: relative;
     width: calc(95% /3);
     
     margin: 20px 0;
+}
 
+.original{
+    position: relative;
+    z-index: 20;
+}
+
+.original:hover{
+    opacity: 0;
 }
 
 .img-container{
     position: relative;
     width: 100%;
+    
 }
+
+.invisible{
+    position: absolute;
+    top: 0px;
+    transform: translate(-100%, 0);
+    width: 100%;
+    z-index: 10;
+}
+
 
 .img-container > img{
     float: left;
     max-width: 100%;
-    z-index: 0;
+    
 }
 
 .heart{
@@ -35,23 +54,33 @@ main {
     position: absolute;
     top: 10px;
     right: 0;
+    z-index: 100;
 }
 
 .heart span{
     font-size: 2em;
 }
 
-.discount{
-    position: absolute;
-    top: 500px;
-    left: 0; 
-    
+.heart:hover{
+    color: red;
+}
 
-    display: flex;
+.heart{
+    z-index: 90;
+}
+
+.discount{
+    z-index: 100;
+    position: absolute;
+    left: 0; 
+    padding-top: 125%; 
     
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     
 }
+
 
 .flag{
     color: var(--color-white);
@@ -74,3 +103,5 @@ main {
 .crossed{
     text-decoration: line-through;
 }
+
+

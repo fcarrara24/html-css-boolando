@@ -13,3 +13,17 @@ header{
 .header-logo img{
     height: 70%;
 }
+
+.header-media{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    flex-wrap: wrap;
+    width: 200px;
+    height: var(--nav-height);
+}
+
+.header-media img{
+    height: 70%;
+    margin: 0 5px;
+}
