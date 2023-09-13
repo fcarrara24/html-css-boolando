@@ -1,0 +1,23 @@
+main {
+    margin-top: calc(var(--nav-height) + 20px);
+    
+}
+
+.wrapper{
+    
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% /3);
+    margin: 20px 0;
+
+}
+
+.box:nth-child(2n + 1){
+    background-color: green;
+}
+
+.box:nth-child(2n + 0){
+    background-color: blue;
+}

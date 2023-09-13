@@ -1,0 +1,14 @@
+header{ 
+    height: var(--nav-height);
+    background-color: var(--color-orange);
+    padding-bottom: 5px;
+    box-shadow: 0 5px #8888881e;
+}
+
+.header-logo{
+    height: var(--nav-height);
+}
+
+.header-logo img{
+    height: 70%;
+}

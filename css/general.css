@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-white: #fff7f2;
+	--color-green: #008000;
+	--color-red: #ff0000;
+	--color-black: #1a1a1a;
+	--color-orange: #ff6900;
+    /* fixed-navbar height */
+    --nav-height: 30px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.space-between{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text-white{
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.pos-fixed{
+    width: 100vw;
+    position: fixed;
+}
+
+.debug{
+    border: 1px solid black;
+    /* da togliere */
+    height: 100vh;
+}
